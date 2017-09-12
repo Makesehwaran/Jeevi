@@ -4,11 +4,11 @@ void main()
 int a1,a2,i;
 printf("Enter the intervals");
 scanf("%d%d",&a1,&a2);
-for(i=a1+1;1<a2;a1++)
+for(i=a1+1;i<a2;i++)
 {
- if(a1%2!=0)
+ if(i%2!=0)
  {
- printf("%d",a1);
+ printf("%d",i);
  }
  }
  }
