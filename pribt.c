@@ -2,7 +2,7 @@
 void main()
 {
 int a1,a2,count=0,i,j;
-printf("Enter the intervals greater than 1"};
+printf("Enter the intervals greater than 1");
 scanf("%d %d",&a1,&a2);
 for(i=a1+1;i<a2;i++)
 {
