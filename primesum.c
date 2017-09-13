@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 void main()
 {
@@ -19,4 +20,5 @@ for(i=2,i<=n;i++)
       }
      
  }
+ printf("The sum is %d",sum);
 }
