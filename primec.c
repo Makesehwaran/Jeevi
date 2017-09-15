@@ -2,6 +2,8 @@
 void main()
 {
 int a,b,i,j,count=0,count1=0;
+ printf("Enter the range");
+ scanf("%d%d",&a,&b);
 for(i=a+1;i<b;i++)
 {
 for(j=a+1;j<b;j++_
