@@ -1,7 +1,9 @@
+
 #include<stdio.h>
 void main()
 {
 long int a[10];
+int i;
 printf("Enter the numbers");
 for(i=0;i<10;i++)
 scanf("%ld",&a[i]);
