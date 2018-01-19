@@ -1,10 +1,10 @@
 #include<stdio.h>
 void main()
 {
-int i;
+int i,r;
 printf("Enter a number");
 scanf("%d",&i);
-
-printf("%d",i++);
+r=i%10;
+ printf("%d",r);
 }
 
