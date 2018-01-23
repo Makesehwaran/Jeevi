@@ -2,10 +2,13 @@
 #include<math.h>
 void main()
 {
-    float p=100,r=3,tot;
-    int t=4;
-    tot=p+r*t*p;
-    printf("%d",floor(tot));
+    float p,r,tot,res;
+    int t;
+    printf("Enter p,r,t");
+    scanf("%f %f %d",&p,&r,&t);
+    tot=p*r*t;
+    res=tot/100;
+    printf("%d",floor(res));
 
     
     
